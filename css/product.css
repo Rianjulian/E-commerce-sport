@@ -1,0 +1,78 @@
+.banner{
+   background-image: url("../images/slide/banner to revisi@2x.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 110vmin;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.item span{
+    font-size:4vw;
+    font-weight: bolder;
+    color: #af2a3b;
+}
+
+.item p{
+    font-size: 2vw;
+    color: snow;
+    width: 70%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-card{
+    margin: 50px;
+}
+
+.branding{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.top-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.nike{
+    width:  40vw;
+    height: 40vw;
+    background-image: url("../images/slide/post IG.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.nike p{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: snow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    align-self: flex-end;
+}
+
+.adidas{
+    width: 40vw;
+    height: 40vw;
+    background-image: url("../images/slide/custom – 1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.adidas p{
+    font-size: 3vw;
+    font-weight: bolder;
+    color: snow;
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    margin: 10px 20px;   
+}

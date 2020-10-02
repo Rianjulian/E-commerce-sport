@@ -1,0 +1,166 @@
+/* LIST KATEGORI */
+.title-area{
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.unlist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-gap: 50px 0;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.border a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-kerning: 2px;
+    letter-spacing: 0.5px;
+}
+
+li.border a {
+    display: grid;
+    height: 400px;
+    grid-template-rows: 4fr 0.7fr;
+    border-radius: 5px;
+}
+
+li.border a:hover{
+    transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 2px 8px 5px rgba(-1, 10, 15, 0.3);
+}
+
+.catalog {
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+    transform: scale(0.9,0.9);
+    transition:all 0.7s;
+}
+
+p.image-box{
+    background-color: #f8f8f8;
+    text-align: center;
+    align-self: flex-end;
+    padding: 10px;
+    margin: 2px;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* LIST BARANG */
+
+.unlisted{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 50px 0;
+    justify-content: space-around;
+    list-style: none;
+    box-sizing: content-box;
+}
+
+li.border-barang {
+    box-sizing: border-box;
+    min-height: 350px ;
+    display: grid;
+    width: auto;
+    justify-content: center;
+    grid-row-gap: 10px;
+    border: 0.9px solid transparent;
+    padding: 0px 5px 5px;
+}
+
+.price {
+    justify-self: center;
+    align-self: center;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(53, 53, 53);
+}
+
+.decoration::after{
+   content: " ";
+   border-bottom: 0.9px solid #d4d4d4;
+   width: 70%;
+   display: block;
+   position: relative;
+   left: 15%;
+   /* right: 50%; */
+}
+
+.nama{
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+}
+
+.button-cart {
+    display: none;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: black;
+    align-self: baseline;
+    padding: 5px;
+    font-family: none;
+}
+
+.stok{
+    align-self: baseline;
+    font-size: medium;
+    margin: 0 20px;
+    font-family: none;
+    display: none;
+}
+
+.barang{
+    width: 250px;
+    min-height: 250px;
+}
+/* HOVER EFFECT */
+
+li.border-barang:hover {
+    /* box-shadow: 0px 2px 8px 5px rgba(-1, 10, 15, 0.3); */
+    border: 0.9px solid rgb(0, 0, 0);
+}
+
+.catalog:hover{
+    transform: scale(1.1,1.1);
+    transition:all 0.9s;
+}
+
+li.border a:hover{
+    transition: 0.8s ease-out;
+    box-shadow: 0px 2px 8px 5px rgba(-1, 10, 15, 0.3);
+}
+
+.decoration:hover::after{
+    content: " ";
+    border-bottom: 0.9px solid #000000;
+    width: 70%;
+    display: block;
+    position: relative;
+    left: 15%;
+}
+
+/* FOR MOBILE  */
+
+@media (max-width: 600px){
+
+
+
+}

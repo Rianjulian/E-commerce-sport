@@ -1,0 +1,121 @@
+#frame-tambah{
+    display: grid;
+}
+
+.tombol-action{
+    font-size: 12px;
+    margin: 0px 0px 5px;
+    background-color: #1c3e5a;
+    color: white;
+    padding: 7px 4px ;
+    justify-self: left;
+    text-decoration: none;
+}
+
+.tombol-action:hover{
+    background-color: #34a5c7;
+}
+
+.button-bar span input[type="submit"]{
+    padding: 2px 10px;
+    background-color: #1e495a;
+    border: 1px solid #26768f;
+    color: white;
+    cursor: pointer;
+}
+
+.button-bar span input[type="submit"]:hover{
+    background-color: #34a5c7;
+}
+
+table.table-list-group-item{
+   width: 100%;
+   background-color: grey;
+   font-size: 1em;
+}
+
+table.table-list-group-item td{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 5px 1px;
+}
+
+table.table-list-group-item td a{
+    background-color: rgb(30, 60, 85);
+    padding: 2px 4px;
+    text-decoration: underline white;
+    color: white;
+}
+
+span input[type="text"] {
+    width: 100%;
+    padding: 1px;
+    margin-top: 5px;
+}
+
+span select{
+    width: 100%;
+    padding: 1px;
+    margin-top: 5px;
+}
+
+span textarea{
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    margin-top: 5px;
+}
+
+span input[type="number"]{
+    text-align: center;
+    display: block;
+    font-size: large;
+    margin-top: 5px;
+}
+
+span input[type="file"]{
+    display: block;
+    margin-top: 5px;
+}
+
+span img{
+    width: 300px;
+    margin-bottom: 5px;
+    box-shadow: 0px 8px 8px 0px rgba(2, 1, 2, 0.3);
+}
+
+label.top{
+    display: block;
+}
+
+
+/* RESPONSIVE FOR TABLET */
+
+@media (max-width: 768px){
+
+    .button-bar span input[type="submit"]{
+        padding: 10px 30px;
+        background-color: #1e495a;
+        border: 1px solid #26768f;
+        color: white;
+        cursor: pointer;
+    }    
+
+    table.table-list-group-item{
+        font-size: 0.8rem;
+    }
+}
+
+
+/* RESPONSIVE FOR MOBILE */
+
+@media only screen and (max-width: 600px){
+    
+    body{
+        height: 100%;
+    }
+
+    table.table-list-group-item{
+        font-size: 0.5rem;
+    }
+}
